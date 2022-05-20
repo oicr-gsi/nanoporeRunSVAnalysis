@@ -42,12 +42,12 @@ workflow nanoporeRunSVAnalysis {
      author: "Gavin Peng"
      email: "gpeng@oicr.on.ca"
      description: "nanoporeRunSVAnalysis, workflow that generates structural variant files from input of nanopore fastq files, a wrapper of the workflow https://github.com/mike-molnar/nanopore-SV-analysis"
-     dependencies: 
+     dependencies: [
       {
         name: "nanopore_sv_analysis/20220505",
         url: "https://gitlab.oicr.on.ca/ResearchIT/modulator/-/blob/master/code/gsi/70_nanopore_sv_analysis.yaml"
       }
-
+     ]
      output_meta: {
        insertions: "output from rule run_SV_analysis of the original workflow",
        deletions: "output from rule run_SV_analysis of the original workflow", 
