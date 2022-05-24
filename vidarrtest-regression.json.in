@@ -9,8 +9,8 @@
       "nanoporeRunSVAnalysis.normal": "MMinden_9161",
       "nanoporeRunSVAnalysis.samplefile": "/.mounts/labs/gsiprojects/gsi/nanopore_data/MMinden_9161/MMinden_9161/fastq/MMinden_9161.fastq.gz",
       "nanoporeRunSVAnalysis.smkConfig.generateConfig_modules": "nanopore-sv-analysis/20220505",
-      "nanoporeRunSVAnalysis.smkConfig.generateConfig.jobMemory": null,
-      "nanoporeRunSVAnalysis.smkConfig.generateConfig.timeout":null, 
+      "nanoporeRunSVAnalysis.smkConfig.generateConfig_jobMemory": null,
+      "nanoporeRunSVAnalysis.smkConfig.generateConfig_timeout":null, 
       "nanoporeRunSVAnalysis.runSVAnalysis.modules": "nanopore-sv-analysis/20220505",
       "nanoporeRunSVAnalysis.runSVAnalysis.timeout": null,
       "nanoporeRunSVAnalysis.runSVAnalysis.jobMemory": null   
