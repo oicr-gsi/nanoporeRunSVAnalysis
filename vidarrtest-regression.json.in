@@ -19,7 +19,6 @@
       "nanoporeRunSVAnalysis.sample": "MMinden_9161",
       "nanoporeRunSVAnalysis.tumor": "MMinden_9161",
       "nanoporeRunSVAnalysis.normal": "MMinden_9161",
-      "nanoporeRunSVAnalysis.smkConfig.generateConfig_modules": "nanopore-sv-analysis/20220505",
       "nanoporeRunSVAnalysis.smkConfig.generateConfig_jobMemory": null,
       "nanoporeRunSVAnalysis.smkConfig.generateConfig_timeout":null, 
       "nanoporeRunSVAnalysis.runSVAnalysis.modules": "nanopore-sv-analysis/20220505",
