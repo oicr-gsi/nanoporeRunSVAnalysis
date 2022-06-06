@@ -80,6 +80,7 @@ workflow nanoporeRunSVAnalysis {
 
         command <<<
         set -euo pipefail
+        module load nanopore-sv-analysis
         unset LD_LIBRARY_PATH
         cp $NANOPORE_SV_ANALYSIS_ROOT/Snakefile .
         cp ~{config} .

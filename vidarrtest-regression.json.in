@@ -20,7 +20,7 @@
       "nanoporeRunSVAnalysis.normal": "MMinden_9161",
       "nanoporeRunSVAnalysis.smkConfig.generateConfig_jobMemory": null,
       "nanoporeRunSVAnalysis.smkConfig.generateConfig_timeout":null, 
-      "nanoporeRunSVAnalysis.runSVAnalysis.modules": "nanopore-sv-analysis/20220505",
+      "nanoporeRunSVAnalysis.runSVAnalysis.modules": "conda/4.11.0",
       "nanoporeRunSVAnalysis.runSVAnalysis.timeout": null,
       "nanoporeRunSVAnalysis.runSVAnalysis.jobMemory": null   
     },
