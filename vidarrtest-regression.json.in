@@ -18,8 +18,8 @@
       "nanoporeRunSVAnalysis.sample": "MMinden_9161",
       "nanoporeRunSVAnalysis.tumor": "MMinden_9161",
       "nanoporeRunSVAnalysis.normal": "MMinden_9161",
-      "nanoporeRunSVAnalysis.smkConfig.generateConfig_jobMemory": null,
-      "nanoporeRunSVAnalysis.smkConfig.generateConfig_timeout":null, 
+      "nanoporeRunSVAnalysis.generateConfig.jobMemory": null,
+      "nanoporeRunSVAnalysis.generateConfig.timeout":null, 
       "nanoporeRunSVAnalysis.runSVAnalysis.modules": "conda/4.11.0",
       "nanoporeRunSVAnalysis.runSVAnalysis.timeout": null,
       "nanoporeRunSVAnalysis.runSVAnalysis.jobMemory": null   
