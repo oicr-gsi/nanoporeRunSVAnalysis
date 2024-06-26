@@ -51,14 +51,32 @@ workflow nanoporeRunSVAnalysis {
         url: "https://gitlab.oicr.on.ca/ResearchIT/modulator/-/blob/master/data/gsi/50_hg38_nanopore_sv_reference.yaml"
       }
      ]
-     output_meta: {
-       insertions: "output from rule run_SV_analysis of the original workflow",
-       deletions: "output from rule run_SV_analysis of the original workflow", 
-       duplications: "output from rule run_SV_analysis of the original workflow", 
-       inversions: "output from rule run_SV_analysis of the original workflow", 
-       translocations: "output from rule run_SV_analysis of the original workflow", 
-       CNVs: "output from rule run_SV_analysis of the original workflow" 
-     }
+    output_meta: {
+    insertions: {
+        description: "output from rule run_SV_analysis of the original workflow",
+        vidarr_label: "insertions"
+    },
+    deletions: {
+        description: "output from rule run_SV_analysis of the original workflow",
+        vidarr_label: "deletions"
+    },
+    duplications: {
+        description: "output from rule run_SV_analysis of the original workflow",
+        vidarr_label: "duplications"
+    },
+    inversions: {
+        description: "output from rule run_SV_analysis of the original workflow",
+        vidarr_label: "inversions"
+    },
+    translocations: {
+        description: "output from rule run_SV_analysis of the original workflow",
+        vidarr_label: "translocations"
+    },
+    CNVs: {
+        description: "output from rule run_SV_analysis of the original workflow",
+        vidarr_label: "CNVs"
+    }
+}
     }
 }
 
