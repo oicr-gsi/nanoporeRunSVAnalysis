@@ -1,11 +1,11 @@
 [
   {
-    "id": "TEST_MMinden_9161_FASTQ_INPUT",
+    "id": "TEST_MMinden_FASTQ_INPUT",
     "description": "runs the nanoporeRunSVAnalysis workflow, with nanopore fastq as input",
     "arguments": {
        "nanoporeRunSVAnalysis.samplefile": {
         "contents": {
-            "configuration": "/.mounts/labs/gsi/testdata/nanoporeRunSVAnalysis/input_data/MMinden_9161.fastq",
+            "configuration": "/.mounts/labs/gsi/testdata/nanoporeRunSVAnalysis/test_inputs/MMinden_Test.fastq",
             "externalIds": [
                 {
                     "id": "TEST",
@@ -15,9 +15,9 @@
         },
         "type": "EXTERNAL"
       },
-      "nanoporeRunSVAnalysis.sample": "MMinden_9161",
-      "nanoporeRunSVAnalysis.tumor": "MMinden_9161",
-      "nanoporeRunSVAnalysis.normal": "MMinden_9161",
+      "nanoporeRunSVAnalysis.sample": "MMinden_Test",
+      "nanoporeRunSVAnalysis.tumor": "MMinden_Test",
+      "nanoporeRunSVAnalysis.normal": "MMinden_Test",
       "nanoporeRunSVAnalysis.generateConfig.jobMemory": null,
       "nanoporeRunSVAnalysis.generateConfig.timeout":null, 
       "nanoporeRunSVAnalysis.runSVAnalysis.modules": "conda/4.11.0",
@@ -32,7 +32,7 @@
         "nanoporeRunSVAnalysis.insertions": {
             "contents": [
               {
-                "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeRunSVAnalysis_TEST_MMinden_9161_FASTQ_INPUT@JENKINSID@"
+                "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeRunSVAnalysis_TEST_MMinden_FASTQ_INPUT@JENKINSID@"
               }
             ],
             "type": "ALL"
@@ -40,7 +40,7 @@
           "nanoporeRunSVAnalysis.deletions": {
             "contents": [
               {
-                "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeRunSVAnalysis_TEST_MMinden_9161_FASTQ_INPUT@JENKINSID@"
+                "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeRunSVAnalysis_TEST_MMinden_FASTQ_INPUT@JENKINSID@"
               }
             ],
             "type": "ALL"
@@ -48,7 +48,7 @@
           "nanoporeRunSVAnalysis.duplications": {
             "contents": [
               {
-                "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeRunSVAnalysis_TEST_MMinden_9161_FASTQ_INPUT@JENKINSID@"
+                "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeRunSVAnalysis_TEST_MMinden_FASTQ_INPUT@JENKINSID@"
               }
             ],
             "type": "ALL"
@@ -56,7 +56,7 @@
           "nanoporeRunSVAnalysis.inversions": {
             "contents": [
               {
-                "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeRunSVAnalysis_TEST_MMinden_9161_FASTQ_INPUT@JENKINSID@"
+                "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeRunSVAnalysis_TEST_MMinden_FASTQ_INPUT@JENKINSID@"
               }
             ],
             "type": "ALL"
@@ -64,7 +64,7 @@
           "nanoporeRunSVAnalysis.translocations": {
             "contents": [
               {
-                "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeRunSVAnalysis_TEST_MMinden_9161_FASTQ_INPUT@JENKINSID@"
+                "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeRunSVAnalysis_TEST_MMinden_FASTQ_INPUT@JENKINSID@"
               }
             ],
             "type": "ALL"
@@ -72,7 +72,7 @@
           "nanoporeRunSVAnalysis.CNVs": {
             "contents": [
               {
-                "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeRunSVAnalysis_TEST_MMinden_9161_FASTQ_INPUT@JENKINSID@"
+                "outputDirectory": "@SCRATCH@/@DATE@_Workflow_nanoporeRunSVAnalysis_TEST_MMinden_FASTQ_INPUT@JENKINSID@"
               }
             ],
             "type": "ALL"
@@ -82,7 +82,7 @@
       {
         "metrics_calculate": "@CHECKOUT@/tests/calculate.sh",
         "metrics_compare": "@CHECKOUT@/tests/compare.sh",
-        "output_metrics": "/.mounts/labs/gsi/testdata/nanoporeRunSVAnalysis/output_expectation/runSVAnalysis_MMinden_9161_FASTQ.metrics",
+        "output_metrics": "/.mounts/labs/gsi/testdata/nanoporeRunSVAnalysis/output_metrics/workflow_test_01.metrics",
         "type": "script"
       }
     ]
